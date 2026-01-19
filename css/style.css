@@ -85,8 +85,8 @@ footer {
 }
 .img-texto {
     position: relative;
-    width: 309.39px;
-    height: 246.07px;
+    width: 900.40px;
+    height: 800.52px;
     overflow: hidden;
 }
 .img-texto img {
@@ -112,4 +112,7 @@ footer {
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+.color-letras {
+    color: #fff;
 }
