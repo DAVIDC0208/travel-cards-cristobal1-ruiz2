@@ -83,3 +83,33 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+.img-texto {
+    position: relative;
+    width: 309.39px;
+    height: 246.07px;
+    overflow: hidden;
+}
+.img-texto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-texto .texto-sobre-img {
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+    padding: 20px; 
+    color: rgb(0, 0, 0); 
+    font-family: "Archivo Black"; 
+    font-size: 20px;
+    background: linear-gradient( to top,
+    rgba(0,0,0,0.8)
+    rgba(0,0,0,0)
+}
+.body-padding {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
